@@ -1,12 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import Navbar from './Navbar';
+import NavigationBar from './Navbar';
 //import'Card.js';
 
 function App() {
   return (
     <div className="App">
-    <Navbar />
+    <NavigationBar />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>CS 230L</h1>
