@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import 'Navbar.js';
-import 'Card.js';
+import Navbar from 'Navbar.js';
+import'Card.js';
 
 function App() {
   return (
     <div className="App">
+      <Navbar />
+      <Card />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>CS 230L</h1>
