@@ -1,7 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar, Nav, NavDropdown, Form, FormControl, Button } from 'react-bootstrap';
-
 function NavigationBar() {
   return (
     <Navbar bg="dark" expand="lg" className="text-white">
@@ -19,13 +18,15 @@ function NavigationBar() {
             <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
           </NavDropdown>
         </Nav>
-        <Form inline className="mr-auto">
+        <Form inline className="mr-auto mt-2">
           <FormControl type="text" placeholder="Search" className="mr-sm-2" />
           <Button variant="outline-success">Search</Button>
         </Form>
       </Navbar.Collapse>
     </Navbar>
   );
+  
 };
 
 export default NavigationBar;
+
