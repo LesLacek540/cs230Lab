@@ -3,16 +3,40 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Card, Row, Col } from 'react-bootstrap';
 
 function Cards() {
-    return (
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="..." alt="Card image cap" />
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
-    );
+  return (
+    <Row>
+      <Col>
+        <Card bg="primary" text="white">
+          <Card.Body>
+            <Card.Title>Left Card</Card.Title>
+            <Card.Text>
+              Filler text filler text.
+            </Card.Text>
+          </Card.Body>
+        </Card>
+      </Col>
+      <Col>
+        <Card bg="secondary" text="white">
+          <Card.Body>
+            <Card.Title>Middle Card</Card.Title>
+            <Card.Text>
+              Filler text filler text.
+            </Card.Text>
+          </Card.Body>
+        </Card>
+      </Col>
+      <Col>
+        <Card bg="success" text="white">
+          <Card.Body>
+            <Card.Title>Far Right Card</Card.Title>
+            <Card.Text>
+              Filler text filler text.
+            </Card.Text>
+          </Card.Body>
+        </Card>
+      </Col>
+    </Row>
+  );
 }
 
 export default Cards;
