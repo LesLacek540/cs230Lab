@@ -39,4 +39,4 @@ function Cards() {
   );
 }
 
-export default CardComponent;
+export default Cards;
